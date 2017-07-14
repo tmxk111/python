@@ -5,7 +5,7 @@ Created on Fri Jul 14 14:35:41 2017
 @author: Administrator
 """
 
-def story(**kwds):
+def story(kwds):
     return 'Once upon a time, there was a ' \
     '%(job)s called %(name)s' % kwds
 
